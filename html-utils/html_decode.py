@@ -11,7 +11,7 @@ def usage():
 The program returns a html encoded string based on STRING_TO_ENCODE
 
 Example:
-echo "%28" | python html_encode.py{0}
+echo "%28" | python {0}
 Out: (
 """.format( scriptname )
     return ret
